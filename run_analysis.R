@@ -71,7 +71,8 @@ Activitymeans <- cast(molten.data, Subject + Activity ~variable, mean)
 #add "mean" prefix to variable column names
 colnames(Activitymeans)[3:81] <- paste("mean", colnames(Activitymeans[,c(3:81)]), sep = "_")
 
-
+#export 
+write.table(Activitymeans, file = "Activitymeans.txt", sep = "")
 
 
 
