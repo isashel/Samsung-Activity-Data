@@ -1,6 +1,6 @@
 # Code Book
 
-## Variables in the final "Activitymeans" dataframe
+## Variables in the final Activitymeans.txt file containging the tidy dataframe
  [1,] "Subject" - The subject performing the activities and being measured (n=30)                          
  [2,] "Activity" - The activity performed by each subject, 6 activities were measured, labeled as: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", 
                     "STANDING", "LAYING" 
